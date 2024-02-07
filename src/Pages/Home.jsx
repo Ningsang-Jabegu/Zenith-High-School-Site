@@ -60,14 +60,14 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="home-main">
-        <section className="first-hero">
-          <div>
+      <main className="home-main" style={{border:"2px solid blue"}}>
+        <section className="first-hero" style={{display:"flex", justifyContent:"space-between", padding:"1em"}}>
+          <div style={{border:"1px solid red",width:"45%"}}>
             <h1>Welcome to Zenith English School</h1>
             <p>where we nurture minds and shape futures. Our mission is to provide a holistic education that fosters academic excellence and personal growth.</p>
             <button></button>
           </div>
-          <div>
+          <div style={{border:"1px solid red",width:"45%"}}>
             <h1>Welcome to Zenith English School</h1>
             <p>where we nurture minds and shape futures. Our mission is to provide a holistic education that fosters academic excellence and personal growth.</p>
             <button></button>
