@@ -82,7 +82,7 @@ export default function HomeSlider() {
         }
     ];
     return (
-        <section className="slider shadow-soft border-light rounded border">
+        <div className="slider shadow-soft border-light rounded border">
             {sliderInfo.map((slide, index) => (
             <div
               className="slide"
@@ -100,6 +100,6 @@ export default function HomeSlider() {
             {/* <!-- Control buttons --> */}
             <button className="button button-prev" onClick={handlePrevSlide}><i className="fa-solid fa-angle-left"></i></button>
             <button className="button button-next" onClick={handleNextSlide}><i className="fa-solid fa-angle-right"></i></button>
-        </section>
+        </div>
     );
 }
